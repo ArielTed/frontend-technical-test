@@ -1,4 +1,5 @@
 module.exports = {
+  reactStrictMode: true,
   i18n: {
     locales: ['fr'],
     defaultLocale: 'fr',
@@ -7,7 +8,6 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   compiler: {
-    removeConsole: true,
     styledComponents: true,
   },
-}
+};
